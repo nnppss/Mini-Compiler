@@ -1,3 +1,18 @@
-# Mini-Compiler
-Mini Compiler is a simplified interpreter designed to process and execute source code files containing basic programming constructs. It supports variable assignments, arithmetic and logical expressions, control flow statements (if-else and while loops), and print statements. This project serves as an educational tool to understand the fundamental components of a compiler, including lexical analysis, parsing, and interpretation.
-## Work in progress...
+# MiniCompiler
+
+## Overview  
+MiniCompiler is a simplified compiler/interpreter in C++ built from scratch. It supports:  
+- variable assignments  
+- arithmetic & logical expressions  
+- control flow (`if` / `else`, `while`)  
+- printing statements  
+
+It’s intended as an educational tool to understand building compilers: lexical analysis, parsing, AST construction, and interpretation.
+
+---
+
+## Features
+
+- **Variable Assignment**: Define variables and assign integer values.  
+  ```cpp
+  x = 10;
